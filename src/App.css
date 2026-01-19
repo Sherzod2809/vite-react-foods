@@ -1,0 +1,16 @@
+
+
+
+.active{
+    color: #EA7C69;
+    &::before{
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        content: "";
+        width: 100%;
+        height: 3px;
+        border-radius: 6px;
+        background-color: #EA7C69;
+    }
+}
