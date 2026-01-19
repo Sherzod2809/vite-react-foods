@@ -8,7 +8,11 @@ export default function NullProduct() {
           <h1 className="text-white text-3xl font-semibold ml-2 trans -translate-4 translate-x-10">
             Orders{" "}
           </h1>
-          <img src={breakfast} alt="breakfast" className="mt-[110px]" />
+          <img
+            src={breakfast}
+            alt="breakfast"
+            className="m-[50px] aspect-4/4 mt-[90px]"
+          />
         </div>
         <div className="w-full flex flex-col  items-center mt-[36px]">
           <h2 className="text-white mb-[31px] font-semibold text-[24px]">
@@ -19,7 +23,7 @@ export default function NullProduct() {
           </p>
         </div>
         <a href="/home" className="cursor-pointer">
-          <button className="w-full bg-[#EA7C69] font-semibold text-white text-[18px] py-2.5  rounded-md  mt-[174px]">
+          <button className="w-full bg-[#EA7C69] font-semibold text-white text-[18px] py-2.5  rounded-md  mt-[70px]">
             To Order
           </button>
         </a>
